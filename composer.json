@@ -1,0 +1,18 @@
+{
+    "require": {
+        "slim/slim": "^4.14",
+        "slim/psr7": "^1.7",
+        "illuminate/database": "^12.22",
+        "firebase/php-jwt": "^6.11",
+        "illuminate/validation": "^12.24",
+        "illuminate/translation": "^12.24"
+    },
+    "require-dev": {
+        "robmorgan/phinx": "^0.16.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    }
+}
